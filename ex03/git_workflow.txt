@@ -1,0 +1,31 @@
+GIT WORKFLOW DOCUMENTATION
+===========================
+
+Step 1: Check Current Status
+$ git status
+Result: Working directory clean, all changes staged/committed.
+
+Step 2: Stage Files (Add to Staging Area)
+$ git add README.md
+$ git add git_workflow.txt
+Result: Files are now in the staging area, ready to be committed.
+
+Step 3: Verify Staged Changes
+$ git status
+Result: Shows README.md and git_workflow.txt as staged (to be committed).
+
+Step 4: Commit Changes (Save to Local Repository)
+$ git commit -m "Add README and workflow documentation for ex03"
+Result: Changes are committed with a descriptive message.
+Commit hash and files changed are displayed.
+
+Step 5: Push to Remote (Upload to GitHub)
+$ git push origin main
+Result: Changes are now pushed to the GitHub repository.
+Local branch is up to date with remote branch.
+
+Summary:
+- Modifications were made locally
+- Files were staged using git add
+- Changes were committed with a clear message
+- Updates were pushed to the remote repository on GitHub
